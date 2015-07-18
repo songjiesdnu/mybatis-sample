@@ -28,10 +28,16 @@ public class BlogService implements IBlogService {
 	 */
 	@Override
 	public Blog selectBlogById(String id) throws IOException {
+		Blog blog = null;
 		SqlSession sqlSession = MybatisUtils.getSqlSession();
-		BlogMapper blogMapper = (BlogMapper)sqlSession.getMapper(BlogMapper.class);
+		try{
+			BlogMapper blogMapper = (BlogMapper)sqlSession.getMapper(BlogMapper.class);
+			
+			blog = blogMapper.selectBlog(id);
+		}finally{
+			MybatisUtils.closeSqlSession(sqlSession);
+		}
 		
-		Blog blog = blogMapper.selectBlog(id);
 		return blog;
 	}
 }

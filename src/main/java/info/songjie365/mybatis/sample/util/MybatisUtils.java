@@ -23,7 +23,7 @@ public class MybatisUtils {
 	private static SqlSessionFactory sqlSessionFactory = null;
 	
 	/**
-	 * 返回SqlSessionFactory对象。</br>
+	 * 返回SqlSessionFactory对象。
 	 * 该方法保证在整个应用的生命周期中只存在一个SqlSessionFactory对象。并且，只使用一次SqlSessionFactoryBuilder的实例。</br>
 	 * @author songjiesdnu@163.com
 	 * @return
@@ -45,7 +45,7 @@ public class MybatisUtils {
 	}
 	
 	/**
-	 * 返回一个SqlSession对象</br>
+	 * 返回一个SqlSession对象
 	 * @author songjiesdnu@163.com
 	 * @return
 	 * @throws IOException
@@ -53,5 +53,17 @@ public class MybatisUtils {
 	 */
 	public static SqlSession getSqlSession() throws IOException{
 		return getSqlSessionFactory().openSession();
+	}
+	
+	/**
+	 * 关闭SqlSession
+	 * @author songjiesdnu@163.com
+	 * @param session
+	 * @since JDK 1.6
+	 */
+	public static void closeSqlSession(SqlSession sqlSession){
+		if(sqlSession != null){
+			sqlSession.close();
+		}
 	}
 }

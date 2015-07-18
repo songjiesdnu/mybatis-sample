@@ -11,6 +11,8 @@ import info.songjie365.mybatis.sample.service.IBlogService;
 import java.io.IOException;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Function: BlogService测试类. <br/>
@@ -21,6 +23,7 @@ import org.junit.Test;
  * @since JDK 1.6
  */
 public class BlogServiceTest {
+	private Logger logger = LoggerFactory.getLogger(BlogServiceTest.class);
 	
 	@Test
 	public void selectBlogByIdTest() throws IOException{
@@ -28,6 +31,7 @@ public class BlogServiceTest {
 		IBlogService blogService = new BlogService();
 		Blog blog = blogService.selectBlogById(blogId);
 		String title = blog.getTitle();
+		logger.debug("title:{}", title);
 		assertNotNull("blog的标题不能为空", title);
 	}
 }
