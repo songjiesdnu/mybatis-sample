@@ -6,6 +6,8 @@ package info.songjie365.mybatis.sample.service;
 
 import info.songjie365.mybatis.sample.domain.Blog;
 
+import java.io.IOException;
+
 /**
  * Function: blog服务接口. <br/>
  * date: 2015年7月18日 下午1:44:27 <br/>
@@ -23,5 +25,5 @@ public interface IBlogService {
 	 * @return
 	 * @since JDK 1.6
 	 */
-	public Blog selectBlogById(String id);
+	public Blog selectBlogById(String id) throws IOException;
 }

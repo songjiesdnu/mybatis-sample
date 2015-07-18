@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<junit.version>3.8.1</junit.version>
+		<junit.version>4.12</junit.version>
 		<mybatis.version>3.3.0</mybatis.version>
 		<jdk.version>1.6</jdk.version>
 		<mysql.version>5.1.36</mysql.version>
