@@ -1,18 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : 本机3306-wproot
-Source Server Version : 50617
-Source Host           : localhost:3306
-Source Database       : mybatis-sample
-
-Target Server Type    : MYSQL
-Target Server Version : 50617
-File Encoding         : 65001
-
-Date: 2015-07-18 10:57:56
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
