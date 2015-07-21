@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="info.songjie365.mybatis.sample.mapper.BlogMapper">
-  <select id="selectBlog" resultType="info.songjie365.mybatis.sample.domain.Blog">
+  <select id="selectBlog" resultType="info.songjie365.mybatis.sample.domain.Blog" databaseId="mysql">
     select * from blog where id = #{id}
   </select>
 </mapper>
