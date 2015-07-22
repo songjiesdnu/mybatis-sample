@@ -18,7 +18,7 @@
 			</dataSource>
 		</environment>
 	</environments>
-	<databaseIdProvider type="DB_VENDOR">
+	<databaseIdProvider type="info.songjie365.mybatis.sample.custom.MyDatavbaseIdProvider">
 		<property name="DB2" value="db2" />
 		<property name="Oracle" value="oracle" />
 		<property name="Adaptive Server Enterprise" value="sybase" />
