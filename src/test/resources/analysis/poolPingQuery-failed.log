@@ -1,0 +1,101 @@
+23:07:59.593 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:00.134 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+23:08:04.783 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 22778547.
+23:08:06.609 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 22778547 ...
+23:08:06.656 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:06.656 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 22778547 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:06.656 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (22778547) was returned from the pool, getting another connection.
+23:08:06.687 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 11485285.
+23:08:22.179 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 11485285 ...
+23:08:22.179 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:22.179 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 11485285 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:22.179 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (11485285) was returned from the pool, getting another connection.
+23:08:22.210 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 3632761.
+23:08:23.833 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 3632761 ...
+23:08:23.833 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:23.833 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 3632761 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:23.833 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (3632761) was returned from the pool, getting another connection.
+23:08:23.865 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 26172446.
+23:08:25.082 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 26172446 ...
+23:08:25.098 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:25.098 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 26172446 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:25.098 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (26172446) was returned from the pool, getting another connection.
+23:08:25.113 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 16963746.
+23:08:26.550 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 16963746 ...
+23:08:26.550 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:26.550 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 16963746 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:26.550 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (16963746) was returned from the pool, getting another connection.
+23:08:26.581 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 10808795.
+23:08:28.377 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 10808795 ...
+23:08:28.377 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:28.392 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 10808795 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:28.392 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (10808795) was returned from the pool, getting another connection.
+23:08:28.427 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 22745358.
+23:08:30.113 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 22745358 ...
+23:08:30.113 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:30.113 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 22745358 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:30.113 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (22745358) was returned from the pool, getting another connection.
+23:08:30.129 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 16557558.
+23:08:31.768 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 16557558 ...
+23:08:31.768 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:31.784 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 16557558 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:31.784 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (16557558) was returned from the pool, getting another connection.
+23:08:31.799 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 13533811.
+23:08:33.641 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Testing connection 13533811 ...
+23:08:33.641 [main] WARN  o.a.i.d.pooled.PooledDataSource - Execution of ping query 'NO PING QUERY SET' failed: Erreur de syntaxe près de 'NO PING QUE
+RY SET' à la ligne 1
+23:08:33.641 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Connection 13533811 is BAD: Erreur de syntaxe près de 'NO PING QUERY SET' à la ligne 1
+23:08:33.641 [main] DEBUG o.a.i.d.pooled.PooledDataSource - A bad connection (13533811) was returned from the pool, getting another connection.
+23:08:33.641 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource: Could not get a good connection to the database.
+23:08:33.672 [main] ERROR o.a.ibatis.executor.BaseExecutor - Could not get a databaseId from dataSource
+java.sql.SQLException: PooledDataSource: Could not get a good connection to the database.
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:448) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:89) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.mapping.VendorDatabaseIdProvider.getDatabaseProductName(VendorDatabaseIdProvider.java:82) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.mapping.VendorDatabaseIdProvider.getDatabaseName(VendorDatabaseIdProvider.java:66) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.mapping.VendorDatabaseIdProvider.getDatabaseId(VendorDatabaseIdProvider.java:53) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.databaseIdProviderElement(XMLConfigBuilder.java:272) [mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:111) [mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:95) [mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:80) [mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:66) [mybatis-3.3.0.jar:3.3.0]
+	at info.songjie365.mybatis.sample.util.MybatisUtils.getSqlSessionFactory(MybatisUtils.java:41) [classes/:na]
+	at info.songjie365.mybatis.sample.util.MybatisUtils.getSqlSession(MybatisUtils.java:55) [classes/:na]
+	at info.songjie365.mybatis.sample.service.impl.BlogService.selectBlogById(BlogService.java:32) [classes/:na]
+	at info.songjie365.mybatis.sample.service.impl.BlogServiceTest.selectBlogByIdTest(BlogServiceTest.java:32) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_51]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
